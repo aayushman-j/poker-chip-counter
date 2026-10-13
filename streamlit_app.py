@@ -32,18 +32,22 @@ CSS = """
 
 
 
+
 .title {
+    display: block;
+    width: 100%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(1.35rem, 5vw, 2rem);
-    line-height: 1.3;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #D4AF37;
-    margin: 0 auto 0.2rem;
-    width: 100%;
-    max-width: 100%;
-    overflow-wrap: anywhere;
+    margin: 0 0 0.2rem 0;
+    padding: 4px 0;
     box-sizing: border-box;
+    white-space: normal;
+    overflow: visible;
 }
+
 
          
 .subtitle { text-align:center; opacity:.8; margin-bottom: 1rem; }
