@@ -33,20 +33,22 @@ CSS = """
 
 
 
+
 .title {
     display: block;
     width: 100%;
     text-align: center;
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 2rem;
-    line-height: 1.5;
+    line-height: 1.7;
     color: #D4AF37;
     margin: 0 0 0.2rem 0;
-    padding: 4px 0;
+    padding: 10px 0 4px 0;
     box-sizing: border-box;
     white-space: normal;
     overflow: visible;
 }
+
 
 
          
