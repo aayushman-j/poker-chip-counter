@@ -337,6 +337,7 @@ def main() -> None:
         return
 
     game = st.session_state.game
+    st.divider()
     st.markdown('<div class="title">♠ ♥ Poker Chip Counter ♦ ♣</div>', unsafe_allow_html=True)
     st.markdown(
         f'<div class="topbar"><span>Round <b>{rounds_played(game) + 1}</b></span>'
