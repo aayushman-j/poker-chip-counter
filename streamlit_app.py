@@ -20,10 +20,32 @@ RESERVED_NAMES = {"Event", "Winner", "Pot (chips)", "Pot (₹)"}
 
 CSS = """
 <style>
-.block-container { padding-top: 1.5rem; max-width: 720px; }
-h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; letter-spacing: .3px; }
-.title { text-align:center; font-family: Georgia, serif; font-size: 2rem;
-         color: #D4AF37; margin-bottom: .2rem; }
+
+
+
+.block-container {
+    padding-top: 1.5rem;
+    max-width: 720px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.35rem, 5vw, 2rem);
+    line-height: 1.3;
+    color: #D4AF37;
+    margin: 0 auto 0.2rem;
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    box-sizing: border-box;
+}
+
+         
 .subtitle { text-align:center; opacity:.8; margin-bottom: 1rem; }
 .topbar { display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap;
           background:#0F4D3A; border:1px solid rgba(212,175,55,.45);
